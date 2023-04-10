@@ -49,7 +49,7 @@ jobs:
           host: {나의 public ip}
           username: {나의 userName}
           source: "real_coding_server-0.0.1-SNAPSHOT.jar"
-          target: "/home/adulkid.kaya"
+          target: "/home/{나의 userName}"
           key: ${{ secrets.PRIVATE_KEY }}
   
   run-app:
